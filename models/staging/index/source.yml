@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: HappyIndex
+    description: ranks the happiness of each country from 2018-2019 using multiple factors
+    database: dbt-learn-390719
+    tables:
+      - name: index_2018
+        description: happiness rankings for 2018
+        columns:
+          - name: Country_or_region
+            description: PK
+            tests:
+              - unique
+              - not_null
+      - name: index_2019
+        description: happiness rankings for 2019
+        columns:
+          - name: Country_or_region
+            description: PK
+            tests:
+              - unique
+              - not_null
