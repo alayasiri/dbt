@@ -20,7 +20,7 @@ dbt also has specific functions that can be used in the IDE. Some of the ones th
 In this project, I was more focused on uderstanding the different capiblities of dbt. There was no intent or reason for choosing this dataset other than it features a variety of data types and is smaller in size (and therefore, is more managable). The dataset captures the rankings based on happiness of countries based on various factors. Some of these factors include GDP, freedom, the perception of corruption, and healthy life expectancy. 
 
 <br /><a>
-[Link to Dataset](https://www.kaggle.com/datasets/grouplens/movielens-20m-dataset)</a>
+[Link to Dataset](https://www.kaggle.com/datasets/sougatapramanick/happiness-index-2018-2019)</a>
 
 <h2>Languages and Utilities Used:</h2>
 
