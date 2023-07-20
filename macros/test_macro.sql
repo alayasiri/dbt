@@ -1,6 +1,6 @@
-{% macro rank_change() %}
+{% macro change(column_name_1, column_name_2, round=0) %}
 
-    ranks2018.Rank - ranks2019.Rank
+    round({{column_name_1}} - {{column_name_2}}, {{round}})
 
 {% endmacro %}
 

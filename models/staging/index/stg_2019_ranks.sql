@@ -17,7 +17,6 @@ select
     Freedom_to_make_life_choices as Freedom,
     Generosity,
     Perceptions_of_corruption as Corruption
-
 from 
     `HappyIndex.index_2019`
 order by 
@@ -25,4 +24,5 @@ order by
 
 )
 
-select * from ranks2019
+select * 
+from ranks2019
