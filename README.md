@@ -4,9 +4,9 @@
 
 This is my first time using dbt. This is a quick summary of MY understanding of dbt.
 
-dbt is a transformation tool used in the ELT (or ETL) process. ELT is the process of extracting raw data from the source, loading it to a staging area to perform transfomations on it in order to run analysis on the data. dbt is a tool that sits on top (or as dbt says it "runs against your DWH") of your data warehouse, meaning it does not store any data. Instead, dbt acts as a staging area where data analyts, data engineers, and the like can perform transformations on the data. 
+dbt is a transformation tool used in the ELT (or ETL) process. ELT is the process of extracting raw data from the source, loading it to a staging area to perform transformations on it in order to run analysis on the data. dbt is a tool that sits on top (or as dbt says it "runs against your DWH") of your data warehouse, meaning it does not store any data. Instead, dbt acts as a staging area where data analysts, data engineers, and the like can perform transformations on the data.
 
-dbt Cloud is the "hosted environment that streamlines development" with an integrated developnment core (IDE). This is where the coding, querying, and pretty much all the transformations are actually executed. You can preview your code before you run it against your platform, compile the code and see the compiled code (what is actually happening behind the scenes when you are using dbt's unique functions) and data lineage. Focusing on data lineage for a second, dbt features a DAG, which is a directed acyclic graph. This is a visual representation of the data lineage from source to use case. 
+dbt Cloud is the "hosted environment that streamlines development" with an integrated development core (IDE). This is where the coding, querying, and pretty much all the transformations are actually executed. You can preview your code before you run it against your platform, compile the code and see the compiled code (what is actually happening behind the scenes when you are using dbt's unique functions) and data lineage. Focusing on data lineage for a second, dbt features a DAG, which is a directed acyclic graph. This is a visual representation of the data lineage from source to use case. 
 
 dbt also has specific functions that can be used in the IDE. Some of the ones that I used in this project are:
 
@@ -17,7 +17,7 @@ dbt also has specific functions that can be used in the IDE. Some of the ones th
 
 <h2>Description:</h2>
 
-In this project, I was more focused on uderstanding the different capiblities of dbt. There was no intent or reason for choosing this dataset other than it features a variety of data types and is smaller in size (and therefore, is more managable). The dataset captures the happiness rankings of countries based on various factors. Some of these factors include GDP, freedom, the perception of corruption, and healthy life expectancy. 
+In this project, I was more focused on understanding the different capabilities of dbt. There was no intent or reason for choosing this dataset other than it features a variety of data types and is smaller in size (and therefore, is more manageable). The dataset captures the happiness rankings of countries based on various factors. Some of these factors include GDP, freedom, the perception of corruption, and healthy life expectancy. 
 
 <br /><a>
 [Link to Dataset](https://www.kaggle.com/datasets/sougatapramanick/happiness-index-2018-2019)</a>
@@ -33,7 +33,7 @@ In this project, I was more focused on uderstanding the different capiblities of
 <a> In this project, I am trying to learn and understand the different transformation capabilities of dbt. I followed along with dbt Learn's courses and training programs which are available for free on their website. </a>
 
 <h2>The Process:</h2>
-<a> After completing the first few lessons, I created my own dbt Cloud account and a Google Cloud Plaform (GCP) account. Both of these services are free and cloud-based. GCP Big Query is a Google data warehousing service. I loaded the raw data that I found on Kaggle into the data warehouse. From there, I connected Big Query to dbt and was able to access and transform my data through dbt. 
+<a> After completing the first few lessons, I created my own dbt Cloud account and a Google Cloud Platform (GCP) account. Both of these services are free and cloud-based. GCP Big Query is a Google data warehousing service. I loaded the raw data that I found on Kaggle into the data warehouse. From there, I connected Big Query to dbt and was able to access and transform my data through dbt. 
 
 Some of what I did in dbt included:
 - modeling: these models included staging models, intermediate models, and final models
